@@ -1,0 +1,247 @@
+@media screen and (max-width:320px) {
+	.tabs {
+		width: 100%;
+	}
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 15px;
+	  width: 250px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 22px;
+	}
+	.ProjectTitle4 {
+		font-size: 17px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 250px;
+	}
+}
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.tabs {
+		width: 100%;
+	}  
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 15px;
+	  width: 250px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 22px;
+	}
+	.ProjectTitle4 {
+		font-size: 17px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 250px;
+	}
+}
+@media screen and (min-width: 361px) and (max-width: 414px) {
+	.tabs {
+		width: 100%;
+	}  
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 16px;
+	  width: 300px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 25px;
+	}
+	.ProjectTitle4 {
+		font-size: 18px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 300px;
+	}
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+/* 	#centeredmenu ul li a {
+		font-size: 100%;
+	} */
+	.tabs {
+		width: 100%;
+	}
+/* 	.tabs label {
+		font-size: 100%;
+		padding: 5px 10px;
+	} */
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;
+/* 		border-top: medium ridge #cccccc;
+		border-top-width: 1px; */	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+}
+@media screen and (min-width: 769px) and (max-width:1024px) {
+	#centeredmenu ul li a {
+		font-size: 5vw;
+	}
+	.PortSpacing {
+		height: 5px;
+	}
+	.tabs {
+		width: 100%;
+	}
+	.tabs label {
+		font-size: 2.5vw;
+		padding: 5px 10px;
+	}
+	.ProjectTitle {
+		visibility: visible;
+	}
+	.TitlePosition {
+		visibility: visible;
+	}
+	.ProjectTitle2 {
+		visibility: hidden;	
+	}
+	.TitlePosition2 {
+		visibility: hidden;		
+	}	
+	.row {
+		width: 100%;
+	}
+	.column1 {
+		float: left; 
+		margin-right: 0%; 
+		width: 300px;
+	}
+	.column2 {
+		float: right; 
+/* 		margin-left: 1%; */
+/* 		width: 67%; */
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+}
