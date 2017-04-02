@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+    /* With these codes padding and border does not increase it's width and gives intuitive style.*/
+  
+	-webkit-box-sizing: border-box;   
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#envelope{
+	width: 100%;
+	margin: 0 auto;
+	padding:10px 0;
+	border: 2px solid gray;
+	border-radius:10px;
+	background-color: rgba(255,255,255,0.6);
+} 	
+form{
+	width:70%;
+	margin: 1% 15%;
+}  
+/***** This is where the size and positioning of the Contact Input Sections are located *****/
+/* Makes responsive fields.Sets size and field alignment.*/
+input[type=text]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border-radius:10px;
+	border:1px solid #737373;
+}
+input[type=email]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border-radius:10px;
+	border:1px solid #737373;
+}
+input[type=url]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border-radius:10px;
+	border:1px solid #737373;
+}
+input[type=submit]
+{
+	margin-bottom: 20px;
+	width:100%;
+	padding: 15px;
+	border-radius:10px;
+	border:1px solid #737373;
+	background-color: #4180C5;                                /* Color of the "Send Message button" */
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+}
+#submit:hover
+{
+	background-color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+textarea{
+	width:100%;
+	padding: 15px;
+	margin-top: 10px;
+    border:1px solid #737373;
+	background-color: rgba(153, 153, 153,0.7);
+	border-radius:10px; 
+	margin-bottom: 20px;
+	resize:none;
+	color: #FFFFFF;
+} 
+input[type=text]:focus,textarea:focus {
+	border-radius:10px;
+	-webkit-box-shadow: 0 0 10px 1px #4697e4;
+	-moz-box-shadow: 0 0 10px 1px #4697e4;
+	box-shadow: 0 0 10px 1px #4697e4;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+  
