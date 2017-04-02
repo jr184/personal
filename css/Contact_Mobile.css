@@ -1,0 +1,110 @@
+@media screen and (max-width:320px) {
+	body {
+		font-size: 75%;
+	}
+	.CVBuffer {
+		height: 50px;
+	}
+	.container2 {
+		width: 100%;
+		padding: 0 10px;
+	}
+	form{
+		width:70%;
+		margin: 1% 15%;
+	}  
+	input[type=submit]
+	{
+		padding:4px;
+		font-size:12px;
+	}
+	input[type=text]{
+		padding: 8px; 
+	}
+	label{
+		font-size:12px;
+	}
+	h2{
+		font-size:15px;
+	}
+	p{
+		font-size:12px;
+	}
+	.FormInput {
+		width: 100%;
+		font-size: 1em;
+	}
+	div#envelope{
+		width: 80%;
+		padding:10px 0;
+		border: 1px solid gray;
+		border-radius: 5px;		
+	}		
+	label.LabelTitle {
+		font-size: 15px;
+	}	
+	input[type=submit]
+	{
+		margin-bottom: 10px;
+		width:100%;
+		padding: 5px;
+		border-radius: 5px;
+		font-size: 12px;
+	}	
+	.LinkInIcon  {
+		width: 50px;
+		height: 50px;
+	}
+	.GithubIcon {
+		width: 45px;
+		height: 45px;
+	}	
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.container2 {
+		width: 100%;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (min-width: 361px) and (max-width: 414px) {
+	.container2 {
+		width: 100%;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+	.container2 {
+		width: 100%;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+	body {
+		font-size: 75%;
+	}
+	.container2 {
+		width: 100%;
+		height: 50%;
+		margin: 0 auto;
+		padding: 0 30px;
+	}
+	input[type=text]{
+		margin-bottom: 3%;
+		margin-top: 10px;
+		width:100%;
+		padding: 15px;
+		border-radius:10px;
+		border:1px solid #737373;
+	}	
+	.FormInput {
+		width: 100%;
+		font-size: 2em;
+	}	
+	label.LabelTitle {
+		font-size: 3em;
+	}	
+}
