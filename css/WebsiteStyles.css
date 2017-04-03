@@ -134,8 +134,7 @@
 }
 
 .MobileMenu {
-	visibility: hidden;
-	/* display: none;	 */
+	display: none;	
 	height: 0px;
 }
 
