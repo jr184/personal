@@ -134,18 +134,14 @@
 	transition: all 0.2s ease-in-out;	
 }
 
-/***ORIGINAL Format***/
-/* display: none; Inside MobileMenu*/
-/* .MobileMenu {
-	visibility: hidden; 
-	height: 0px;
+.accordion {
+	visibility: hidden;
 }
 
-.Insignia {
+.MobileSec {
 	visibility: hidden;
-} */
+}
 
-/***WORKING Format***/
 .MobileMenu {
 	height: 0px;
 }
