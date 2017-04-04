@@ -37,6 +37,7 @@
 		display: none;
 	}
 	.accordion {
+		visibility: visible;
 		overflow-y: hidden;
 		overflow-x: hidden;
 	}
@@ -107,6 +108,7 @@
 		padding-top: 10px;
 	}		
 	.MobileSec {
+		visibility: visible;
 		height: 60px;
 		margin: 0 auto;
 		text-align: center;
