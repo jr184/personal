@@ -1,0 +1,106 @@
+@media screen and (max-width: 320px) {
+	.Buffer {
+		height: 45px;
+	}
+	.InfoBuffer { 
+		padding-top: 5px;
+	}
+	.CVFont {
+		font-size: 5px;
+	}
+	.TableWidth {
+		padding-left: 10px;
+	}	
+	.DateWidth {
+		width: 60px;
+	}
+	.CVFont {
+	  font-size: 10px;
+	}
+	.ReferenceWidth {
+		width: 50px;
+	}	
+	.RefTable {
+		padding-left: 0px;
+	}
+	.SkillWidth{
+		width: 50%;
+	}	
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.SkillWidth{
+		width: 50%;
+	}	
+}
+
+@media screen and (min-width: 372px) and (max-width: 414px) {
+/* 	.Equip {
+		width: 40%;	
+	} */
+}
+
+@media screen and (min-width: 361px) and (max-width: 414px) {
+	.SkillWidth{
+		width: 50%;
+	}	
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+	.SkillWidth{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.SubTitle {
+		margin-left: 10px;
+	}
+	.CVcontainer {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
+		border-radius: 3px 3px 3px 3px;
+		background-color: rgba(153, 153, 153,0.7);
+	}
+	.DownloadCenter {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.DateWidth {
+		padding-left: 10px;
+	}	
+	.RefTable {
+		padding-left: 10px;
+	}	
+}
+
+@media screen and (max-width: 510px) {
+	.SubTitle {
+		margin-left: 0px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.MainSkills {
+		display: none;
+	}
+	.AltSkills {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.DownloadCenter {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 0px;
+		padding-left: 0px;
+		font-size: 25px;	
+	}
+}
