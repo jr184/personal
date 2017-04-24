@@ -1,0 +1,405 @@
+@media screen and (max-width:320px) {
+	.tabs {
+		width: 100%;
+	}
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 15px;
+	  width: 250px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 22px;
+	}
+	.ProjectTitle4 {
+		font-size: 17px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 250px;
+	}
+	.cd-top {
+		height: 25px;
+		width: 25px;
+		bottom: 10px;
+		right: 10px;
+		border-radius: 5px;		
+	}
+	.LogoContainer {
+		width: 100%;
+	}		
+}
+@media screen and (min-width: 321px) and (max-width: 360px) {
+	.tabs {
+		width: 100%;
+	}  
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 15px;
+	  width: 250px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 22px;
+	}
+	.ProjectTitle4 {
+		font-size: 17px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 250px;
+	}
+	.cd-top {
+		height: 25px;
+		width: 25px;
+		bottom: 10px;
+		right: 10px;	
+		border-radius: 5px;
+	}
+	.LogoContainer {
+		width: 100%;
+	}		
+}
+@media screen and (min-width: 361px) and (max-width: 414px) {
+	.tabs {
+		width: 100%;
+	}  
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.MapDes {
+	  font-size: 16px;
+	  width: 300px;
+	  margin: 12px auto;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.ProjectTitle3 {
+		font-size: 25px;
+	}
+	.ProjectTitle4 {
+		font-size: 18px;
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 300px;
+	}
+	.LogoContainer {
+		width: 100%;
+	}		
+}
+
+/* This is where the styles of the mobile drop down menu is */
+@media screen and (max-width: 500px) {
+/* 	.main {
+		display: none;
+	} */
+	.PortNav {
+		display: block;
+		float: none;
+		list-style: none;		
+		position: relative;
+		padding: 0;
+		top: 44px;
+		width: 100%;
+		height: 100%;  
+	}
+	.PortMenu {
+		width: 100%;
+	}
+	.WebTabContent {
+		border-radius: 0 0px 10px 10px; 
+		padding-top: 10px;
+		background: rgba(153, 153, 153,0.7);  /*This is the background of the tab content*/
+		padding: 15px;
+		-webkit-animation-duration: 0.5s;
+		-o-animation-duration: 0.5s;
+		-moz-animation-duration: 0.5s;
+		animation-duration: 0.5s;	
+	}
+	#TabTitle {
+		margin: 0px;
+		color: #FFFFFF;
+		font-size: 30px;
+		padding: 10px 20px;		
+		text-align: center;
+		text-decoration: none;
+		border-radius: 7px 7px 0 0;                    /*Top-left Top-right Bottom-right Bottom-left This rounds the corners of the tabs*/
+		font-family: 'Economica-Bold', sans-serif;
+		border-bottom: 1px dotted rgba(0,0,0,0.4);
+		background: rgba(153, 153, 153,0.7);
+	}
+	#TabTitle:hover {
+		background: rgba(217,217,217,0.7);	
+		/* text-shadow: 2px 2px 5px #000000; */	
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;		
+	}
+	.TabShadow {
+		margin: 0px;
+		text-shadow: 2px 2px 5px #000000;
+	}
+/* 	#TabTitle > img{
+		float: right;
+	} */
+	.tab-content {
+		border-radius: 0px; 
+	}
+	.tabs2 input[type=radio] {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.tabs2 {
+		width: 100%;
+		float: none;
+		list-style: none;
+		position: relative;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.tabs2 label {
+		display: block;
+		padding: 10px 20px;
+		color: #4d4d4d;
+		font-size: 24px;
+		text-align: center;
+		font-family: 'Economica-Bold', sans-serif;
+		background: rgba(217,217,217,0.7);      /*This is the color for each tab with no hover*/
+		cursor: pointer;
+		position: relative;
+		top: 3px;
+		border-bottom: 1px solid rgba(89, 89, 89, 0.2);
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.tabs2 label:hover {
+		background: rgba(153, 153, 153,0.7); /*This is where the tab hover color is*/
+		top: 0;
+		color: #e6e6e6;
+		cursor: pointer;
+	}
+	  
+	[id^=tab]:checked + label {
+		background: rgba(153, 153, 153,0.7);      /*This is when the tab is click/active*/
+		color: white;
+		top: 0;
+	}
+	  
+	[id^=tab]:checked ~ [id^=tab-content] {
+		display: block;
+	}	
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+	.tabs {
+		width: 100%;
+	}
+	.ProjectTitle {
+		visibility: hidden;
+		height: 0px;
+	}
+	.TitlePosition {
+		visibility: hidden;
+	}
+	.ProjectTitle2 {
+		visibility: visible;
+		font-size: 25px;
+		color: #f2f2f2;
+		text-shadow: 2px 2px 5px #000000;	
+		height: 1%;
+/* 		border-top: medium ridge #cccccc;
+		border-top-width: 1px; */	
+		border-bottom: medium ridge #cccccc;
+		border-bottom-width: 1px;		
+	}
+	.TitlePosition2 {
+		text-align: center;
+		margin-bottom: 5%;	
+	}	
+	.column1 {
+		float: left; 
+		margin: 0 auto;
+		width: 100%;
+	}
+	.column2 {
+		float: left; 
+		width: 100%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+	.tabs label {
+		font-size: 2.3vw;
+		padding: 10px 10px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+	#centeredmenu ul li a {
+		font-size: 5vw;
+	}
+	.PortSpacing {
+		height: 5px;
+	}
+	.tabs {
+		width: 100%;
+	}
+	.tabs label {
+		font-size: 2.3vw;
+		padding: 10px 10px;
+	}
+	.ProjectTitle {
+		visibility: visible;
+	}
+	.TitlePosition {
+		visibility: visible;
+	}
+	.ProjectTitle2 {
+		visibility: hidden;	
+	}
+	.TitlePosition2 {
+		visibility: hidden;		
+	}	
+	.row {
+		width: 100%;
+		/* margin-bottom: 0%; */
+	}
+	.column1 {
+		float: left; 
+		margin-right: 0%; 
+		width: 27.3333333333%;
+	}
+	.column2 {
+		float: right; 
+		margin-left: 1%;
+		width: 67%;
+	}
+	.ImagePosition {
+		margin: 0 auto; 
+		display: block;
+	}
+	.ImageSize {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width:1080px) {
+	.tabs label {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 25px;
+    bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
