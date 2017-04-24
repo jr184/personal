@@ -1,0 +1,965 @@
+/***********************************************************************************************/
+/*Font
+/*Website
+/*ABOUT
+/*WEBPORTFOLIO
+/*CV
+/*CONTACT
+/*Back-To-Top
+/***********************************************************************************************/
+
+/***************************************** Font Styles *****************************************/
+@charset "utf-8";
+
+/***** Original Source of Economica Font: http://photoshoproadmap.com/economica-font-family/ *****/
+@font-face {
+    font-family: 'Economica';
+    src: url('../Font/Economica/Economica-Regular-OTF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-Bold';
+    src: url('../Font/Economica/Economica-Bold-OTF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Economica-Italic';
+    src: url('../Font/Economica/Economica-Italic-OTF-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*****************************************This is throughout the whole web site*****************************************/
+body {
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family: Economica;	
+	padding:0px; 
+	margin:0px; 
+	background-color:#fff;
+} 
+.MainMenu {
+	visibility: visible;
+}
+	
+#centeredmenu {
+	float:left;
+	width:100%;
+	margin: 0px auto;
+	overflow:hidden;
+	position:relative;
+}
+
+#centeredmenu ul {
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+
+#centeredmenu ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+#centeredmenu ul li a {
+	display: block;
+	margin:0 0 0 1px;
+	text-shadow: 2px 2px 6px rgba(26, 26, 26, 0.6); /*#1a1a1a; */
+	padding: 10px 20px 5px;
+	color: #d9d9d9;  /* rgba(217, 217, 217, 0.7); */
+	font-family: 'Economica-Bold', sans-serif;
+	font-size: 60px;
+	opacity: 0.6;
+	text-decoration:none;
+}
+
+#centeredmenu ul li a:hover {
+	color: #FFF;
+	text-shadow: 2px 2px 1px #000000;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+	color: #FFFFFF;
+	opacity: 1;
+	text-shadow: 2px 2px 1px #000000;
+}
+
+#centeredmenu2 {
+	float:left;
+	width:100%;
+	margin: 0px auto;
+	overflow:hidden;
+	position:relative;
+	background-color: rgba(115, 115, 115, 0.8);
+}
+
+#centeredmenu2 ul {
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+
+#centeredmenu2 ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+#centeredmenu2 ul li a {
+	/* display: block; ORIGINAL*/
+	display: none;
+	margin:0 0 0 1px;
+	text-shadow: 2px 2px 6px rgba(26, 26, 26, 0.6); /*#1a1a1a; */
+	padding: 5px 20px 5px;
+	color: #d9d9d9;  /* rgba(217, 217, 217, 0.7); */
+	font-family: 'Economica-Bold', sans-serif;
+	font-size: 60px;
+	opacity: 0.6;
+	text-decoration:none;
+}
+
+#centeredmenu2 ul li a:hover {
+	color: #FFF;
+	text-shadow: 2px 2px 1px #000000;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+
+.accordion {
+	visibility: hidden;
+}
+
+.MobileSec {
+	visibility: hidden;
+}	
+	
+.MobileMenu {
+	height: 0px;
+}
+
+.Insignia {
+	visibility: hidden;
+}
+
+.Buffer {
+	height: 125px;
+}
+/*****************************************This is the ABOUT Styles*****************************************/
+.container {
+	width: 800px;
+	height: auto;
+	margin: 0px auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.InfoPosition {
+	padding: 5px 10px;
+	border-radius: 5px 5px 5px 5px;
+	background: rgba(115, 115, 115,0.7); 
+}
+
+p.TextMask {
+	text-shadow: 1px 2px 1px #000000;
+	font-size: 19px;
+	margin: 0px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: 'Economica', sans-serif;
+}
+
+.circle {
+	display: block;
+	width: 360px; /* 45%; */
+	height: 360px;
+	z-index: -999;
+	/* margin: 2em auto; */  /*1em*/
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); 
+}
+
+/*****************************************This is the WEBPORTFOLIO Styles*****************************************/
+/* .main {
+	display: block;
+} */
+
+/******* Portfolio Drop Down Menu Styles *******/
+.PortNav {
+	display: none;
+}
+
+h4 {
+  margin: 0px;
+  font-family: 'Economica', sans-serif;
+}
+
+.MapDes {
+  font-family: 'Economica', sans-serif;
+  font-size: 18px;
+}
+
+.fade {
+   opacity: 1;
+   -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.fade:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}	
+
+.ProjectTitle {
+	font-size: 25px;
+	color: #f2f2f2;
+	text-shadow: 2px 2px 2px #000000;
+	border-bottom: medium ridge #cccccc;
+	border-bottom-width: 1px;
+}
+.ProjectTitle2 {
+	visibility: hidden;
+	height: 0px;
+}
+.TitlePosition {}
+
+.TitlePosition2 {}
+
+.WebTitles {
+	color: #FFFFFF;
+	font-size: 35px;
+	margin: 0px;
+	text-align: center;
+	border-bottom: medium ridge #FFFFFF;
+	border-bottom-width: 2px;	
+}
+
+.SmallFont {
+	height: 442px;
+	width: 800px;
+}
+
+.tabs input[type=radio] {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.tabs {
+	width: 1200px;
+	float: none;
+	list-style: none;
+	position: relative;
+	padding: 0;
+	margin: 75px auto;
+}
+
+.tabs li{
+	float: left;
+}
+
+.tabs label {
+	display: block;
+	padding: 10px 20px;
+	border-radius: 5px 5px 0 0;   /*Top-left Top-right Bottom-right Bottom-left This rounds the corners of the tabs*/
+	color: #4d4d4d;
+	font-size: 24px;
+	font-family: 'Economica-Bold', sans-serif;
+	background: rgba(217,217,217,0.7);      /*This is the color for each tab with no hover*/
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.tabs label:hover {
+	background: rgba(153, 153, 153,0.7); /*This is where the tab hover color is*/
+	top: 0;
+	color: #e6e6e6;
+	cursor: pointer;
+}
+  
+[id^=tab]:checked + label {
+	background: rgba(153, 153, 153,0.7);      /*This is when the tab is click/active*/
+	color: white;
+	top: 0;
+}
+  
+[id^=tab]:checked ~ [id^=tab-content] {
+	display: block;
+}
+
+.tab-content{
+	z-index: 2;
+	display: none;
+	text-align: left;
+	border-radius: 0 10px 10px 10px; 
+	padding-top: 10px;
+	background: rgba(153, 153, 153,0.7);  /*This is the background of the tab content*/
+	padding: 15px;
+	color: #000000;
+	position: absolute;
+	/* top: 53px; */
+	left: 0;
+	box-sizing: border-box;
+	-webkit-animation-duration: 0.5s;
+	-o-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+.row {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.row2 {
+	float: left;
+	margin-bottom: 0px;	
+}
+
+.LogoContainer {
+	width: 400px; 
+	margin: 0 auto;
+}
+
+.ImgSize {
+	width: 95px; 
+	height: 95px;
+}
+
+/* .row2 img {
+	margin-right: 5px;
+	width: 10%;
+} */
+
+.column1 {
+	float: left; 
+	margin-right: 0%; 
+	width: 27.3333333333%;
+}
+
+.column2 {
+	float: left; 
+	margin-left: 1%; 
+	width: 68.6666666667%;
+}
+
+.ImagePosition {}
+
+.ImageSize {}
+
+/******* Utilities Option Styles *******/
+.LearningContainer {
+	margin: 0 auto;
+	position: relative;
+    width: 800px;
+    height: 300px;
+	background-color: #506162;
+	border: 4px solid #d9c7a5;	
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(89,89,89,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(89,89,89,1);
+	box-shadow: 0px 0px 5px 0px rgba(89,89,89,1);	
+}
+
+.subcontainer {
+	position:absolute;
+    top:0; 
+	bottom:0; 
+	left:0;	
+	width: 250px;
+    height: 300px;
+	float: left;
+	border-right: 1px solid #d9c7a5;
+}
+
+.UtilContainer {
+	width: 550px;
+    height: 300px;	
+	float: right;
+}
+
+.nav,.nav ul {
+    /* background-color: #5A5B5B; */
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	clear: left;
+}
+
+.nav {
+    display: block;
+    position: relative;
+    width: 304px;
+}
+
+.nav ul {
+    opacity:0;
+    overflow: auto;
+    padding: 5px;
+    position: absolute;
+}
+
+.nav li {
+    position: relative; 
+    color: #d9c7a5;	
+}
+
+.nav li .TabFeatures {                                                                             
+    color: #d9c7a5;
+    display: block;
+    font-size: 17px;
+	font-weight: lighter;
+    padding: 10px 0px 10px 20px;
+    text-decoration: none;
+    width: 230px;                                                                                /* This is the width of the list tabs */
+}
+
+.nav li:hover > .TabFeatures {                                                                      /* *IMPORTANT!!!!! Any "> .ExampleClass" goes to the next element selector, id selector, class selector */
+    color: #FFFFFF;
+	border-bottom: 1px solid #ffffff;
+	width: 220px;
+	padding: 10px 0px 10px 30px;
+	-webkit-transition:  0.2s;
+	-moz-transition:  0.2s;
+	-o-transition:  0.2s;
+	transition:  0.2s;
+}
+
+.nav li .TabFeatures:active {
+	color: #FFFFFF;	
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.nav li .SubLink  {                                                                              /* This is the style for each list (i.e. Cartography tab) in the side bar */  /* *NOTE: TabFeatures was "a" tag */
+    background-color: #657D69;
+    color: #d9c7a5;
+    display: block;
+    font-size: 17px;
+	font-weight: lighter;
+    padding: 10px 0px 10px 20px;
+    text-decoration: none;
+    width: 260px;                                                                                /* This is the width of the list tabs */
+}
+.nav li:hover > .SubLink {                                                                       /* *IMPORTANT!!!!! Any "> .ExampleClass" goes to the next element selector, id selector, class selector */
+    color: #FFFCF4;
+	border-bottom: 1px solid #FFFCF4;
+}
+
+/******* Table Styles *******/
+.tdBackground {
+	/* background-color: rgba(179,179,179, 0.8); */
+	font-family: Stellar-light;
+}
+
+.MatrixColor {
+	color: #262626;
+	height: 10px;
+}
+
+ #searchbox input[type="text"] {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 150px;
+	padding: 8px 15px 8px 8px;
+	border-radius: 5px 0px 0px 5px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+ #DDSearch input[type="text"] {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 63px;
+	padding: 8px 15px 8px 8px;
+	border-radius: 0px 0px 0px 0px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+ #DMSSearch input[type="text"] {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 33px;
+	padding: 8px 15px 8px 8px;
+	border-radius: 0px 0px 0px 0px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+ #CoorSearch input[type="text"] {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 40px;
+	padding: 8px 15px 8px 8px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+#button-submit {
+	background: #FFF;
+	border: 1px solid #b3b3b3;
+	padding: 8px 10px 8px 8px;
+	width: 65px;
+	cursor: pointer;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 12px;
+	background-color: rgba(153, 153, 153, 0.7);
+	color: #FFFFFF;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#button-submit:hover {
+	background-color: rgba(140, 140, 140, 0.7);
+}
+
+#button-submit:active {
+	background-color: rgba(140, 140, 140, 0.7);
+}
+
+#button-submit::-moz-focus-inner {
+	border: 0;
+}
+
+#scalar-submit {
+	background: #FFF;
+	border: 1px solid #b3b3b3;
+	padding: 8px 10px 8px 8px;
+	width: 65px;
+	cursor: pointer;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 12px;
+	background-color: rgba(153, 153, 153, 0.7);
+	color: #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#scalar-submit:hover {
+	background-color: rgba(140, 140, 140, 0.7);
+}
+
+#scalar-submit:active {
+	background-color: rgba(140, 140, 140, 0.7);
+}
+
+#scalar-submit::-moz-focus-inner {
+	border: 0;
+}
+
+.ScalarInputs {
+	color: #FFFFFF;
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 15px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 8px 15px 8px 8px;
+	border-radius: 5px 5px 5px 5px;	
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.Results {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 216px;
+	height: 13px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8px 15px 8px 8px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;	
+}
+
+.CoorResults {
+	border: 1px solid #b3b3b3;
+	font-size: 12px;
+	color: #d9d9d9;
+	width: 271px;
+	height: 13px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8px 15px 8px 8px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(89, 89, 89, 0.7);
+	font-family: 'Lato', Calibri, Arial, sans-serif;	
+}
+
+.RefLink {
+	text-decoration: none;
+	color: #506162;
+}
+
+.RefLink:hover {
+	color: #d9c7a5;
+	-webkit-transition:  0.1s;
+	-moz-transition:  0.1s;
+	-o-transition:  0.1s;
+	transition:  0.1s;	
+}
+
+/*****************************************This is the CV Styles*****************************************/
+.InfoBuffer {
+	width: 100%;
+	padding-top: 15px;
+}
+
+.SkillsTab {
+	margin: 0 auto;
+}
+
+.SkillHead {
+	text-align: center;
+}
+
+.CVcontainer {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px; 
+	background-color: rgba(153, 153, 153,0.7);
+}
+
+.MainSkills {
+	display: block;
+}
+
+.PortNav {
+	display: none;
+}
+
+.TableWidth {}
+
+.DownloadCenter {
+	width: 800px;
+	margin: 0px;
+	padding: 20px;
+	font-size: 30px;
+    font-family: 'Economica-Bold', sans-serif;
+	text-align: center;
+}
+
+.DownloadCenter a{
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 7px;
+	border-radius: 5px;
+	background: rgba(128, 128, 128, 0.3);
+}
+
+.DownloadCenter a:hover{
+	color: #FFFFFF;
+	border-bottom: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	text-shadow: 2px 2px 1px #000000;	
+	background: rgba(128, 128, 128, 0.7);
+	box-shadow: 1px 1px 5px #888888;
+	-webkit-transition:  0.3s;
+	-moz-transition:  0.3s;
+	-o-transition:  0.3s;
+	transition:  0.3s;
+}
+
+#CVBackground {
+	background-color: rgba(153, 153, 153,0.7);
+}
+
+.SubTitle {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  border-bottom: medium ridge #FFFFFF;
+  border-bottom-width: 1px;
+}
+
+.DateWidth {
+	width: 100px;
+}
+
+.ReferenceWidth {
+	width: 100px;
+	padding-right: 10px;
+}
+
+.CVFont {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 12px;
+}
+
+ul.b {
+   list-style-position:outside;
+   -webkit-padding-start: 20px;
+   margin-right: 20px;
+   margin-left: 10px;
+}
+
+/*****************************************This is the CONTACT Styles*****************************************/
+/* #main {
+	background-color: #fff;
+	padding: 30px 0;
+} */
+
+/* clear floated divs */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container2 {
+/* 	width: 100%; */
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+section {
+	margin-bottom: 60px;
+	padding: 30px;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+/* form elements */
+.FormInput {
+	display: block;
+	margin: 0;
+	width: 100%;
+	color: #ffffff;
+	background-color: rgba(153, 153, 153,0.7);     /*This changes the background color of the input block*/
+	font-family: 'Economica', sans-serif;
+	font-size: 18px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	-ms-border-radius: none;
+	-o-border-radius: none;
+	border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+   color: #e6e6e6;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #e6e6e6;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #e6e6e6;  
+}
+
+:-ms-input-placeholder {  
+   color: #e6e6e6;  
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+/* input[type="email"]:focus {
+  outline: none;
+}
+
+input[type="url"]:focus {
+  outline: none;
+} */
+
+textarea:focus {
+  outline: none;
+}
+
+/* lists */
+ul.input-list {
+  list-style: none;
+  margin: 0 -10px;
+  padding: 0;
+}
+
+ul.input-list li {
+  display: block;
+  padding: 0 10px;
+  width: 45%;                                   /*This is where the size of the input is located*/
+  float: left;
+}
+
+ul.input-list li.MessageSize {
+  display: block;
+  padding: 0 10px;
+  width: 92%;                               /*This is where the size of the input is located*/
+  float: left;
+}
+
+@media all and (max-width: 800px) {
+  ul.input-list {
+    margin: 0;
+  }
+  
+  ul.input-list li {
+    padding: 0;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+.style-1 input[type="text"] {
+  padding: 10px;
+  border: solid 1px gainsboro;
+  -webkit-transition: box-shadow 0.3s, border 0.3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  -o-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.style-1 input[type="text"]:focus, .style-1 input[type="text"].focus {
+	border: solid 1px #707070;
+	-webkit-box-shadow: 0 0 5px 1px #969696;
+	-moz-box-shadow: 0 0 5px 1px #969696;
+	box-shadow: 0 0 5px 1px #969696;
+}
+
+label.LabelTitle {
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+}
+
+.LinkInIcon  {
+	width: 100px;
+	height: 100px;
+}
+
+.LinkInIcon:hover  {
+	opacity: 0.7;
+	width: 95px;
+	height: 95px;	
+	-webkit-transition:  0.2s;
+	-moz-transition:  0.2s;
+	-o-transition:  0.2s;
+	transition:  0.2s;	
+}
+
+.GithubIcon {
+	width: 95px;
+	height: 95px;
+}
+
+.GithubIcon:hover  {
+	opacity: 0.7;
+	width: 90px;
+	height: 90px;
+	-webkit-transition:  0.2s;
+	-moz-transition:  0.2s;
+	-o-transition:  0.2s;
+	transition:  0.2s;	
+}
+
+/*****************************************This is the Back-To-Top Styles*****************************************/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(102, 153, 153, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99999;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+/* the button becomes visible */
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+.cd-top.cd-fade-out {
+  opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+  box-shadow: 0 0 10px rgba(153, 153, 153, 0.9);
+  background-color: rgb(102, 153, 153);
+  opacity: 1;
+}
