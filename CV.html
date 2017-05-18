@@ -1,0 +1,437 @@
+<html>
+<title>Joshua Rodriguez</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/Website_Symbol.png" type="image/x-icon"/>	
+	
+	<!--CSS Script-------------------------------------------->
+	<link rel="stylesheet" type="text/css" href="css/WebsiteStyles.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/CV_Mobile.css">	
+	<link rel="stylesheet" type="text/css" href="css/MobileMenu.css">
+	
+	<!--JS Script-------------------------------------------->
+	<script src="js/modernizr.js"></script>
+	
+	<!--JQuery Script-------------------------------------------->
+	<script src="js/jquery.min.js"></script> 	
+<head>
+<style>
+body {
+	background-image: url('img/Head_of_Lake_Louise_Alberta_WithCompass.jpg');  
+} 
+</style>
+
+<script type="text/javascript">
+/**
+* Accordion Toggle Switch
+*/
+	$(document).ready(function(){
+		$(".accordion .accordion-content").slideUp();                            <!-- Calls on the classes "accordion" and "accordion-content" to slide up -->
+		$(".accordion .accordion-title").click(function(){                       <!-- Toggles the accordion on and off with slideToggle fast -->
+			$(this).next(".accordion .accordion-content").slideToggle("fast");
+		})
+	})
+</script>
+
+</head>
+
+<body>
+<!-- http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support -->
+
+<div class="MobileMenu">
+	<img class="Insignia" src="img/JR_Dark_Logo.png"/>
+	<div class="MobileSec"><p>CV</p></div>
+	<div class="accordion">
+		<a class="accordion-title" href="#">
+			<!-- &#x2630; -->
+			<button class="c-hamburger c-hamburger--htx">
+				<span>toggle menu</span>
+			</button>		
+		</a>  
+			<div class="accordion-content">
+				<div id="centeredmenu2">
+				   <ul>
+					  <li><a href="index.html">ABOUT</a></li>				   
+					  <li><a href="WebPortfolio.html">PORTFOLIO</a></li>
+					  <li><a href="Contact.html">CONTACT</a></li>
+				   </ul>
+				</div>
+			</div>
+	</div>
+</div>
+
+<div id="centeredmenu" class="MainMenu">
+   <ul>
+	  <li class="Disappear"><a href="index.html">ABOUT</a></li>
+	  <li class="Disappear"><a href="WebPortfolio.html">PORTFOLIO</a></li>
+	  <li class="Disappear"><a href="CV.html" class="active">CV</a></li>
+	  <li class="Disappear"><a href="Contact.html">CONTACT</a></li>
+   </ul>
+</div>
+
+<div class = "Buffer"></div>
+
+<div class="CVcontainer">
+	<p class = "SubTitle">SKILLS & QUALIFICATIONS</p>	
+		<!-- This is the main Skills and Qual. Section for the full website -->
+		<div class="InfoBuffer MainSkills" style="margin: 0 auto;">
+			<table border="0" style="margin:0 auto;">
+					<th class = "CVFont">Software</th>			
+					<th class = "CVFont">Languages</th>
+					<th class = "CVFont">Equipment Experience</th>
+					<th class = "CVFont">Disciplines</th>
+					<tr>
+						<td valign="top" style="padding-bottom: 5px;">
+							<ul class="b">
+							  <li class = "CVFont">
+								ArcMap
+							  </li>
+							  <li class = "CVFont">
+								Adobe Illustrator
+							  </li>
+							  <li class = "CVFont">
+								Adobe Photoshop
+							  </li>
+							  <li class = "CVFont">
+								ENVI
+							  </li>
+							  <li class = "CVFont">
+								AutoCAD
+							  </li>	
+							  <li class = "CVFont">
+								Microsoft: Word, <br>
+								Excel, & Office
+							  </li>								  
+							</ul>							
+						</td>					
+						<td valign="top" style="padding-bottom: 5px;">
+							<ul class="b">
+							  <li class = "CVFont">
+								HTML
+							  </li>
+							  <li class = "CVFont">
+								CSS
+							  </li>
+							  <li class = "CVFont">
+								Javascript
+							  </li>
+							  <li class = "CVFont">
+								JQuery
+							  </li>							  
+							  <li class = "CVFont">
+								Python
+							  </li>							  
+							</ul>						
+						</td>
+						<td valign="top" style="padding-bottom: 5px;">
+							<ul class="b">
+							  <li class = "CVFont">
+								GeoExplorer Series GPS unit
+							  </li>
+							  <li class = "CVFont">
+								Total station
+							  </li>
+							  <li class = "CVFont">
+								ArcPad
+							  </li>
+							  <li class = "CVFont">
+								Chemistry equipment
+							  </li>							  
+							</ul>						
+						</td>						
+						<td valign="top" style="padding-bottom: 5px;">
+							<ul class="b">
+							  <li class = "CVFont">
+								Web Development
+							  </li>
+							  <li class = "CVFont">
+								Programming
+							  </li>
+							  <li class = "CVFont">
+								Graphic design
+							  </li>
+							  <li class = "CVFont">
+								GIS Analysis
+							  </li>	
+							  <li class = "CVFont">
+								Cartographic design
+							  </li>	
+							  <li class = "CVFont">
+								Remote sensing
+							  </li>								  
+							</ul>						
+						</td>						
+					</tr>
+			</table>					
+		</div>
+	
+		<!-- This is the Mobile Skills and Qual. Section for the full website -->
+		<div class = "InfoBuffer AltSkills" style="margin: 0 auto; margin-bottom: 10px;">
+			<div class="SkillsTab">
+				<table border="0" style="margin: 0 auto;">
+					<th class = "CVFont SkillHead">Software</th>
+					<th class = "CVFont SkillHead">Disciplines</th>
+						<tr>
+							<td valign="top" class="SkillWidth" style="padding-bottom: 5px;">
+								<ul class="b">
+								  <li class = "CVFont">
+									ArcMap
+								  </li>
+								  <li class = "CVFont">
+									Adobe Illustrator
+								  </li>
+								  <li class = "CVFont">
+									Adobe Photoshop
+								  </li>
+								  <li class = "CVFont">
+									ENVI
+								  </li>
+								  <li class = "CVFont">
+									AutoCAD
+								  </li>	
+								  <li class = "CVFont">
+									Microsoft: Word, <br>
+									Excel, & Office
+								  </li>								  
+								</ul>							
+							</td>
+							<td valign="top" class="SkillWidth" style="padding-bottom: 5px;">							
+								<ul class="b">
+								  <li class = "CVFont">
+									Web Development
+								  </li>
+								  <li class = "CVFont">
+									Programming
+								  </li>
+								  <li class = "CVFont">
+									Graphic design
+								  </li>
+								  <li class = "CVFont">
+									GIS Analysis
+								  </li>	
+								  <li class = "CVFont">
+									Cartographic design
+								  </li>	
+								  <li class = "CVFont">
+									Remote sensing
+								  </li>								  
+								</ul>																									
+							</td>						
+						</tr>				
+				</table>
+			</div>	
+			<div class="SkillsTab">
+				<table border="0" style="margin: 0 auto;">
+						<tr>
+							<th class = "CVFont SkillHead ">Equipment Experience</th>	
+							<th class = "CVFont SkillHead">Languages</th>
+						</tr>
+						<tr>
+							<td valign="top" class="SkillWidth" style="padding-bottom: 5px;">
+								<ul class="b">
+								  <li class = "CVFont">
+									GeoExplorer Series <br> GPS unit
+								  </li>
+								  <li class = "CVFont">
+									Total station
+								  </li>
+								  <li class = "CVFont">
+									ArcPad
+								  </li>
+								  <li class = "CVFont">
+									Chemistry equipment
+								  </li>							  
+								</ul>							
+							</td>
+							<td valign="top" class="SkillWidth" style="padding-bottom: 5px;">
+								<ul class="b">
+								  <li class = "CVFont">
+									HTML
+								  </li>
+								  <li class = "CVFont">
+									CSS
+								  </li>
+								  <li class = "CVFont">
+									Javascript
+								  </li>
+								  <li class = "CVFont">
+									JQuery
+								  </li>							  
+								  <li class = "CVFont">
+									Python
+								  </li>							  
+								</ul>								
+							</td>						
+						</tr>				
+				</table>
+			</div>	
+		</div>	
+	
+	<p class = "SubTitle">EDUCATION</p>
+		<div class = "InfoBuffer" style="margin-bottom: 10px;">
+			<table border="0" class="TableWidth">
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">8/09-12/16</h5></td>
+						<td class = "CVFont" style="padding-bottom: 5px;">
+							<strong>Environmental Science (Geospatial Option)</strong>, <i>Humboldt State University - Arcata, CA</i><br>
+						</td>
+					</tr>
+			</table>
+		</div>
+	<p class = "SubTitle">PROFESSIONAL EXPERIENCE</p>
+		<div class = "InfoBuffer" style="margin-bottom: 10px;">
+			<table border="0" class="TableWidth">
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">9/16-3/17</h5></td>
+						<td class = "CVFont">
+							<strong>Assistant for Geospatial Database Management</strong>, <i>Humboldt State University - Arcata, CA</i> -Provide technical assistance in 
+							developing and manipulating environmental and geographic data for geospatial analysis. This involved online scouting of environmental and 
+							natural resource data on websites of state and federal agencies as well as manipulating text, CSV, and GIS data using spreadsheets, databases, 
+							and Esri software. Additional preprocessing included cleaning, filtering, and checking the quality of the data. Database management tasks
+							included joining database tables and geo-referencing/clipping/mosaicking geospatial data.							
+						</td>
+					</tr>
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">9/16-12/16</h5></td>
+						<td class = "CVFont">
+							<strong>Front-End Web Developer</strong>, <i>Pacific Watershed Associates - Arcata, CA</i> -Created a finished working interactive map 
+							for Pacific Watershed Associates(PWA). Was tasked to generate the overall design, and functionality of the interactive map to display
+							relevant stream data from PWA's Telemeter devices. The functionality of the site consisted of: accessing live data by utilizing a web-service 
+							call and displaying the desired data in a Javascript charting package from user selected time and stream measurement options, as well as 
+							displaying their geographic locations and device names. Other tasks included diligent programming practices and proper documentation, file organization, 
+							generating web icons utilizing Adobe Illustrator, and creating step-by-step instructions for client management. 
+						</td>
+					</tr>			
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">6/15-12/16</h5></td>
+						<td class = "CVFont">
+							<strong>Geospatial Analysis Intern/Web Developer</strong>, <i>Humboldt State University - Arcata, CA</i> -Responsible for aiding and developing a new interactive
+							map for Humboldt State University. My task included database management, file organization, generating web icons utilizing Adobe Illustrator and Photoshop, and 
+							completing the overall design of the project using CSS.
+						</td>
+					</tr>			
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">6/15-8/15</h5></td>
+						<td class = "CVFont">
+							<strong>Geospatial Analysis Intern</strong>, <i>Humboldt State University - Arcata, CA</i> -Responsible for georeferencing an AutoCad drawing of HSU into ArcMap, 
+							and collect data on existing exterior lights on campus to retrofit new exterior LED lights on campus.
+						</td>
+					</tr>
+					<tr style="vertical-align: top;">
+						<td><h5 class = "CVFont DateWidth">6/15-8/15</h5></td>
+						<td class = "CVFont">
+							<strong>Geospatial Analysis Intern</strong>, <i>Humboldt State University - Arcata, CA</i> -Lead a team 
+							of students to gather base information for a new interactive map of HSU, utilizing AutoCad, ArcMap 10.2, and python to produce 
+							shapefiles to be used in this project. Also responsible for creating a protocol for students to follow instructions on uniformity 
+							on documentation, editing etiquette, how to use and manipulate a high resolution GPS unit, and convert CAD drawings into shapefiles.</h5>
+						</td>
+					</tr>
+			</table>
+		</div>
+	<p class = "SubTitle">RELEVENT COURSES</p>
+		<div class = "InfoBuffer">
+			<table border="0" style="margin: 0 auto;">
+					<tr>
+						<td class = "CVFont">
+							<ul class="b">
+								<li class = "CVFont">GSP. 101  Geospatial Concepts</li>                   
+								<li class = "CVFont">GSP. 270  Intro. to GIS</li>                            
+								<li class = "CVFont">GSP. 370  Intermediate GIS</li>                                         
+								<li class = "CVFont">GSP. 216  Intro. to Remote Sensing</li>                  
+								<li class = "CVFont">GSP. 326  Intermediate Remote Sensing</li>              
+							</ul>	
+						</td>
+						<td class = "CVFont">
+							<ul class="b">
+								<li class = "CVFont">GSP. 318 Geospatial Programming</li>                     
+								<li class = "CVFont">GSP. 316 Intro. to Cartography</li>                      
+								<li class = "CVFont">GSP. 330 Mobile Mapping</li>                             
+								<li class = "CVFont">GSP. 416 Advance Cartography</li>                        
+								<li class = "CVFont">GSP. 470 Advance GIS</li>                               
+							</ul>
+						</td>
+					</tr>
+			</table>
+		</div>
+	<p class = "SubTitle">PREVIOUS RESEARCH</p>
+		<ul class="b">
+		  <li class = "CVFont">
+			  <strong>Mapping Bark Beetle Infestations in the Rocky Mountain National Park from 2014-2016, Arcata CA</strong>, 
+			  Assessed the impact of bark beetle infestation in the Rocky Mountain National Park region from 2014 to 2016 utilizing remote sensing techniques. 
+			  The changes in forest vegetation health between the two years were analyzed by how many individual trees, or acres of trees that have been impacted 
+			  by bark beetle infestation, <i>Fall 2016</i>
+		  </li>
+		  <li class = "CVFont">
+			  <strong>Bathymetry of Eureka Slough, Arcata CA</strong>, 
+			  Utilized spatial interpolation methods, such as Inverse Distance Weight (IDW), Spline and Kriging, to generate both 2-D and 3-D bathymetric models
+			  from ArcMap and ArcScene, respectively, <i>Fall 2015</i>
+		  </li>
+		  <li class = "CVFont">
+			  <strong>Vegetation Health Improvements from the Effects of Soil Contamination Near Tree Canopy at Annapolis Lead Mine, Annapolis, MO, Arcata CA</strong>, 
+			  Conducted a remote sensing analysis to compare and contrast the tree canopy health of the Annapolis Lead Mine in Annapolis, MO in 2009 and 2012, 
+			  which consisted of previously contaminated soil and heavy metals, <i>Fall 2015</i>
+		  </li>	
+		  <li class = "CVFont">
+			  <strong>ASCE Mid-Pacific Student Water Treatment Competition</strong>, student competition that challenges teams 
+			  to design and build a water treatment process from a set list of materials commonly found at a local hardware store, 
+			  <i>February-April 2014</i>
+		  </li>		  
+		  <li class = "CVFont">
+			  <strong>Case Study: Humboldt State University Waste Management</strong>, a case study on Humboldt State University's
+			  Hazmat facility and their "cradle to grave" procedures, how wastes are stored, packaged, transported and disposed, and
+			  waste minimization efforts, Hazardous Waste Remediation semester project, <i>Spring 2014</i>
+		  </li>	
+		  <li class = "CVFont">
+			  <strong>Suspended Sediment Discharge Distribution Fitting for Lake Tahoe, CA</strong>, probability distribution
+			  fitting for the mean suspended sediment discharge rate falls under the acceptable discharge rate for Lake Tahoe to
+			  retain low turbidity levels, Environmental Data Modeling & Analysis course semester project, <i>Fall 2013</i>
+		  </li>		  
+		  <li class = "CVFont">
+			  <strong>Water Quality Analysis of Sites T4L and T4M on Janes Creek, Arcata CA</strong>, a 10-week study 
+			  conducted on specific sites of Janes Creek, Arcata CA that measures and assesses a number of  parameters in 
+			  attempt to assess the health of this section of the stream and quantify the effect of nearby animal pasturing 
+			  and industry, Water Quality & Env. Health semester project, <i>Spring 2013</i>
+		  </li>
+		</ul>
+	<p class = "SubTitle">REFERENCES</p>
+		<table class="RefTable" border="0">
+				<tr style="vertical-align: top;">
+					<td><h5 class = "CVFont ReferenceWidth">Dr. James Graham</h5></td>
+					<td class = "CVFont">
+						<strong>Assistant Professor</strong>, <i>Humboldt State University - Arcata, CA</i><br>
+						Email: james.graham@humboldt.edu <br>
+						Phone: (707)-826-3823
+					</td>
+				</tr>
+				<tr style="vertical-align: top;">
+					<td><h5 class = "CVFont ReferenceWidth">Dr. Amy Rock</h5></td>
+					<td class = "CVFont">
+						<strong>Lecturer</strong>, <i>Humboldt State University - Arcata, CA</i><br>
+						Email: aer389@humboldt.edu<br>
+						Phone: (707)-826-4115
+					</td>
+				</tr>
+				<tr style="vertical-align: top;">
+					<td><h5 class = "CVFont ReferenceWidth">Dr. Lawrence Fox III</h5></td>
+					<td class = "CVFont">
+						<strong>Professor Emeritus</strong>, <i>Humboldt State University - Arcata, CA</i><br>
+						Email: lawrence.fox@humboldt.edu<br>
+						Phone: (707)-845-4854
+					</td>
+				</tr>				
+		</table>
+</div>
+
+<div class="DownloadCenter" style="margin: 0 auto;">
+	<div>
+		<a href="Documents/Rodriguez_Official_CV.pdf" download>Download PDF</a>
+	</div>
+</div>
+
+<!-- Back To Top -->
+<a href="#0" class="cd-top">Top</a>
+
+<script src="js/Menu_To_X.js" type="text/javascript"></script> <!-- Provides dynamic functionality of open and closing the menu for the Mobile Menu -->
+<script src="js/main.js"></script> <!-- For Back To Top -->
+
+</body>
+</html>
