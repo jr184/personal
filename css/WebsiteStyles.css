@@ -37,6 +37,7 @@ body {
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
+   	background-size: contain ;
 	font-family: Economica;	
 	padding:0px; 
 	margin:0px; 
