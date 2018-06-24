@@ -1,4 +1,7 @@
 @media screen and (max-width:320px) {
+	body {
+		background-size: contain;	
+	}
 	.tabs {
 		width: 100%;
 	}
@@ -117,6 +120,9 @@
 	}
 }
 @media screen and (min-width: 321px) and (max-width: 360px) {
+	body {
+		background-size: contain;	
+	}
 	.tabs {
 		width: 100%;
 	}  
@@ -236,6 +242,9 @@
 	}	
 }
 @media screen and (min-width: 361px) and (max-width: 414px) {
+	body {
+		background-size: contain;	
+	}
 	.tabs {
 		width: 100%;
 	}  
