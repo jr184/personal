@@ -1,8 +1,8 @@
 @media screen and (max-width:320px) {
-	body {
+	/**body {
 		background-attachment: fixed;
 		background-size: contain;	
-	}
+	}**/
 	.tabs {
 		width: 100%;
 	}
@@ -121,10 +121,10 @@
 	}
 }
 @media screen and (min-width: 321px) and (max-width: 360px) {
-	body {
+	/**body {
 		background-attachment: fixed;
 		background-size: contain;	
-	}
+	}**/
 	.tabs {
 		width: 100%;
 	}  
@@ -244,10 +244,10 @@
 	}	
 }
 @media screen and (min-width: 361px) and (max-width: 414px) {
-	body {
+	/**body {
 		background-attachment: fixed;
 		background-size: contain;	
-	}
+	}**/
 	.tabs {
 		width: 100%;
 	}  
