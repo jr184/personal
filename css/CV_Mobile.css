@@ -1,4 +1,8 @@
 @media screen and (max-width: 320px) {
+	body {
+		background-attachment: fixed;
+		background-size: contain;	
+	}	
 	.Buffer {
 		height: 45px;
 	}
@@ -29,18 +33,30 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
+	body {
+		background-attachment: fixed;
+		background-size: contain;	
+	}	
 	.SkillWidth{
 		width: 50%;
 	}	
 }
 
 @media screen and (min-width: 372px) and (max-width: 414px) {
+	body {
+		background-attachment: fixed;
+		background-size: contain;	
+	}	
 /* 	.Equip {
 		width: 40%;	
 	} */
 }
 
 @media screen and (min-width: 361px) and (max-width: 414px) {
+	body {
+		background-attachment: fixed;
+		background-size: contain;	
+	}	
 	.SkillWidth{
 		width: 50%;
 	}	
